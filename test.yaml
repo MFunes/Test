@@ -29,6 +29,6 @@ paths:
         '200':
           description: No response was specified
       tags:
-        - /api/AutorizacionesV1/{IdDeDespacho}
+        - AutorizacionesV1
       operationId: findAccounts
       summary: Finds all accounts
