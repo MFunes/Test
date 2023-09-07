@@ -3,7 +3,7 @@ info:
   title: Prueba de Concepto - Cross-Site Scripting
   description: |
        <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('XSS') src=1>"></form>
-version: PentestKPMG
+version: Pentest
 basePath: /JSSResource/
 produces:
   - application/xml
