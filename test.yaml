@@ -32,3 +32,11 @@ paths:
         - AutorizacionesV1
       operationId: findAccounts
       summary: Finds all accounts
+      {
+  "emailAddresses": [
+    "string"
+  ],
+  "ids": [
+    "string"
+  ]
+}
